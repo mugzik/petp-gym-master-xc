@@ -6,46 +6,110 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4B1DF9AC2CC15931007BA391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DF9A22CC15931007BA391 /* AppDelegate.swift */; };
+		4B1DF9AD2CC15931007BA391 /* petp_gym_master.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DF9A72CC15931007BA391 /* petp_gym_master.xcdatamodeld */; };
+		4B1DF9AE2CC15931007BA391 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DF9A82CC15931007BA391 /* SceneDelegate.swift */; };
+		4B1DF9AF2CC15931007BA391 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1DF9A92CC15931007BA391 /* MainViewController.swift */; };
+		4B1DF9B02CC15931007BA391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1DF9A32CC15931007BA391 /* Assets.xcassets */; };
+		4B1DF9B22CC15931007BA391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1DF9A62CC15931007BA391 /* LaunchScreen.storyboard */; };
+		4B1DF9B92CC15B5D007BA391 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4B1DF9B82CC15B5D007BA391 /* SnapKit */; };
+		4B51C1812CC6C9F8003D6CBD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51C1802CC6C9F7003D6CBD /* MainTabBarController.swift */; };
+		4B51C1832CC7B833003D6CBD /* TrainingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51C1822CC7B833003D6CBD /* TrainingCollectionViewCell.swift */; };
+		4B51C1852CC9BF0E003D6CBD /* NewTrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51C1842CC9BEF8003D6CBD /* NewTrainingViewController.swift */; };
+		4B51C1872CCA9D67003D6CBD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51C1862CCA9D51003D6CBD /* Colors.swift */; };
+		4B51C1892CCAE614003D6CBD /* presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51C1882CCAE610003D6CBD /* presenter.swift */; };
+		4B51C18B2CCAE770003D6CBD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51C18A2CCAE74D003D6CBD /* DataManager.swift */; };
+		4BB754D72CC6BF0000561D38 /* TrainingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB754D62CC6BF0000561D38 /* TrainingCollectionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		4B1DF9A22CC15931007BA391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B1DF9A32CC15931007BA391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B1DF9A42CC15931007BA391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1DF9A52CC15931007BA391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B1DF9A82CC15931007BA391 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B1DF9A92CC15931007BA391 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4B1DF9AB2CC15931007BA391 /* petp_gym_master.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = petp_gym_master.xcdatamodel; sourceTree = "<group>"; };
+		4B51C1802CC6C9F7003D6CBD /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4B51C1822CC7B833003D6CBD /* TrainingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B51C1842CC9BEF8003D6CBD /* NewTrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainingViewController.swift; sourceTree = "<group>"; };
+		4B51C1862CCA9D51003D6CBD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4B51C1882CCAE610003D6CBD /* presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presenter.swift; sourceTree = "<group>"; };
+		4B51C18A2CCAE74D003D6CBD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		4BB0C0682CC010C2009C6CCA /* petp-gym-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "petp-gym-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB754D62CC6BF0000561D38 /* TrainingCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4BB0C07D2CC010C4009C6CCA /* Exceptions for "petp-gym-master" folder in "petp-gym-master" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 4BB0C0672CC010C2009C6CCA /* petp-gym-master */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4BB0C06A2CC010C2009C6CCA /* petp-gym-master */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				4BB0C07D2CC010C4009C6CCA /* Exceptions for "petp-gym-master" folder in "petp-gym-master" target */,
-			);
-			path = "petp-gym-master";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4BB0C0652CC010C2009C6CCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1DF9B92CC15B5D007BA391 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B1DF9AA2CC15931007BA391 /* petp-gym-master */ = {
+			isa = PBXGroup;
+			children = (
+				4B1DF9B62CC1596E007BA391 /* View */,
+				4B1DF9B42CC15944007BA391 /* Presenter */,
+				4B1DF9B32CC15934007BA391 /* Model */,
+				4B1DF9A22CC15931007BA391 /* AppDelegate.swift */,
+				4B1DF9A32CC15931007BA391 /* Assets.xcassets */,
+				4B1DF9A42CC15931007BA391 /* Info.plist */,
+				4B1DF9A62CC15931007BA391 /* LaunchScreen.storyboard */,
+				4B1DF9A82CC15931007BA391 /* SceneDelegate.swift */,
+			);
+			path = "petp-gym-master";
+			sourceTree = "<group>";
+		};
+		4B1DF9B32CC15934007BA391 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B51C18A2CCAE74D003D6CBD /* DataManager.swift */,
+				4B1DF9A72CC15931007BA391 /* petp_gym_master.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B1DF9B42CC15944007BA391 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4B51C1882CCAE610003D6CBD /* presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4B1DF9B62CC1596E007BA391 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B51C1862CCA9D51003D6CBD /* Colors.swift */,
+				4B51C1842CC9BEF8003D6CBD /* NewTrainingViewController.swift */,
+				4B51C17D2CC6C87F003D6CBD /* TrainingCollection */,
+				4B1DF9A92CC15931007BA391 /* MainViewController.swift */,
+				4B51C1802CC6C9F7003D6CBD /* MainTabBarController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B51C17D2CC6C87F003D6CBD /* TrainingCollection */ = {
+			isa = PBXGroup;
+			children = (
+				4BB754D62CC6BF0000561D38 /* TrainingCollectionView.swift */,
+				4B51C1822CC7B833003D6CBD /* TrainingCollectionViewCell.swift */,
+			);
+			path = TrainingCollection;
+			sourceTree = "<group>";
+		};
 		4BB0C05F2CC010C2009C6CCA = {
 			isa = PBXGroup;
 			children = (
-				4BB0C06A2CC010C2009C6CCA /* petp-gym-master */,
+				4B1DF9AA2CC15931007BA391 /* petp-gym-master */,
 				4BB0C0692CC010C2009C6CCA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,11 +137,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				4BB0C06A2CC010C2009C6CCA /* petp-gym-master */,
-			);
 			name = "petp-gym-master";
 			packageProductDependencies = (
+				4B1DF9B82CC15B5D007BA391 /* SnapKit */,
+				4B1DF9BA2CC15B5D007BA391 /* SnapKit-Dynamic */,
 			);
 			productName = "petp-gym-master";
 			productReference = 4BB0C0682CC010C2009C6CCA /* petp-gym-master.app */;
@@ -107,6 +170,9 @@
 			);
 			mainGroup = 4BB0C05F2CC010C2009C6CCA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4B1DF9B72CC15B5D007BA391 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4BB0C0692CC010C2009C6CCA /* Products */;
 			projectDirPath = "";
@@ -122,6 +188,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1DF9B02CC15931007BA391 /* Assets.xcassets in Resources */,
+				4B1DF9B22CC15931007BA391 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +200,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B51C1812CC6C9F8003D6CBD /* MainTabBarController.swift in Sources */,
+				4B51C1872CCA9D67003D6CBD /* Colors.swift in Sources */,
+				4B51C1892CCAE614003D6CBD /* presenter.swift in Sources */,
+				4B51C1852CC9BF0E003D6CBD /* NewTrainingViewController.swift in Sources */,
+				4B1DF9AC2CC15931007BA391 /* AppDelegate.swift in Sources */,
+				4B51C1832CC7B833003D6CBD /* TrainingCollectionViewCell.swift in Sources */,
+				4BB754D72CC6BF0000561D38 /* TrainingCollectionView.swift in Sources */,
+				4B1DF9AD2CC15931007BA391 /* petp_gym_master.xcdatamodeld in Sources */,
+				4B51C18B2CCAE770003D6CBD /* DataManager.swift in Sources */,
+				4B1DF9AE2CC15931007BA391 /* SceneDelegate.swift in Sources */,
+				4B1DF9AF2CC15931007BA391 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B1DF9A62CC15931007BA391 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B1DF9A52CC15931007BA391 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4BB0C07F2CC010C4009C6CCA /* Debug */ = {
@@ -333,6 +423,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B1DF9B72CC15B5D007BA391 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B1DF9B82CC15B5D007BA391 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B1DF9B72CC15B5D007BA391 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		4B1DF9BA2CC15B5D007BA391 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B1DF9B72CC15B5D007BA391 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4B1DF9A72CC15931007BA391 /* petp_gym_master.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B1DF9AB2CC15931007BA391 /* petp_gym_master.xcdatamodel */,
+			);
+			currentVersion = 4B1DF9AB2CC15931007BA391 /* petp_gym_master.xcdatamodel */;
+			path = petp_gym_master.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4BB0C0602CC010C2009C6CCA /* Project object */;
 }
